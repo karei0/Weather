@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="00.00.0000 00:00 Zz"
+        android:id="@+id/tvDateCurrent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/iconCurrent"
+        android:layout_below="@+id/tvDateCurrent"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/na" />
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/tvDateCurrent"
+        android:layout_toRightOf="@+id/iconCurrent"
+        android:layout_alignBottom="@+id/iconCurrent"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/tableLayout">
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="+00"
+                android:id="@+id/tvTempCurrent"
+                android:layout_column="0"
+                android:textSize="30dp"
+                android:layout_gravity="right" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="°C"
+                android:id="@+id/tvTempFormatCurrent"
+                android:layout_column="1"
+                android:layout_marginLeft="7dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="0000"
+                android:id="@+id/tvPressCurrent"
+                android:layout_column="0"
+                android:layout_gravity="right" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="zz. zz. zz"
+                android:id="@+id/tvPressFormatCurrent"
+                android:layout_column="1"
+                android:layout_marginLeft="7dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="100"
+                android:id="@+id/tvHumCurrent"
+                android:layout_column="0"
+                android:layout_gravity="right" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="%"
+                android:id="@+id/tvPercent"
+                android:layout_column="1"
+                android:layout_marginLeft="7dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="00"
+                android:id="@+id/tvWindSpeedCurrent"
+                android:layout_column="0"
+                android:layout_gravity="right" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="m/s"
+                android:id="@+id/tvWindSpeedFormat"
+                android:layout_column="1"
+                android:layout_marginLeft="7dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="NN"
+                android:id="@+id/tvWindDegCurrent"
+                android:layout_column="0"
+                android:layout_gravity="right" />
+        </TableRow>
+    </TableLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz"
+        android:id="@+id/tvWeatherDescrCurrent"
+        android:layout_below="@+id/iconCurrent"
+        android:layout_centerHorizontal="true" />
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lvHourly"
+        android:layout_below="@+id/tvWeatherDescrCurrent"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
