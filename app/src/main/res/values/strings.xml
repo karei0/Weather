@@ -10,4 +10,70 @@
     <string name="action_example">Example action</string>
     <string name="action_settings">Settings</string>
 
+    <string name="n_a">Not available</string>
+
+    <string name="weatherId_200">thunderstorm with light rain</string>
+    <string name="weatherId_201">thunderstorm with rain</string>
+    <string name="weatherId_202">thunderstorm with heavy rain</string>
+    <string name="weatherId_210">light thunderstorm</string>
+    <string name="weatherId_211">thunderstorm</string>
+    <string name="weatherId_212">heavy thunderstorm</string>
+    <string name="weatherId_221">ragged thunderstorm</string>
+    <string name="weatherId_230">thunderstorm with light drizzle</string>
+    <string name="weatherId_231">thunderstorm with drizzle</string>
+    <string name="weatherId_232">thunderstorm with heavy drizzle</string>
+
+    <string name="weatherId_300">light intensity drizzle</string>
+    <string name="weatherId_301">drizzle</string>
+    <string name="weatherId_302">heavy intensity drizzle</string>
+    <string name="weatherId_310">light intensity drizzle rain</string>
+    <string name="weatherId_311">drizzle rain</string>
+    <string name="weatherId_312">heavy intensity drizzle rain</string>
+    <string name="weatherId_321">shower drizzle</string>
+
+    <string name="weatherId_500">light rain</string>
+    <string name="weatherId_501">moderate rain</string>
+    <string name="weatherId_502">heavy intensity rain</string>
+    <string name="weatherId_503">very heavy rain</string>
+    <string name="weatherId_504">extreme rain</string>
+    <string name="weatherId_511">freezing rain</string>
+    <string name="weatherId_520"> light intensity shower rain </string>
+    <string name="weatherId_521"> shower rain </string>
+    <string name="weatherId_522"> heavy intensity shower rain </string>
+
+    <string name="weatherId_600"> light snow </string>
+    <string name="weatherId_601"> snow </string>
+    <string name="weatherId_602"> heavy snow </string>
+    <string name="weatherId_611"> sleet </string>
+    <string name="weatherId_621"> shower snow </string>
+
+    <string name="weatherId_701"> mist </string>
+    <string name="weatherId_711"> smoke </string>
+    <string name="weatherId_721"> haze </string>
+    <string name="weatherId_731"> Sand/Dust Whirls </string>
+    <string name="weatherId_741"> Fog </string>
+
+    <string name="weatherId_800"> sky is clear </string>
+    <string name="weatherId_801"> few clouds </string>
+    <string name="weatherId_802"> scattered clouds </string>
+    <string name="weatherId_803"> broken clouds </string>
+    <string name="weatherId_804"> overcast clouds </string>
+
+    <string name="wind_N_0">N</string>
+    <string name="wind_NNE_30">NNE</string>
+    <string name="wind_NE_45">NE</string>
+    <string name="wind_NEE_60">NEE</string>
+    <string name="wind_E_90">E</string>
+    <string name="wind_SEE_120">SEE</string>
+    <string name="wind_SE_135">SE</string>
+    <string name="wind_SSE_150">SSE</string>
+    <string name="wind_S_180">S</string>
+    <string name="wind_SSW_210">SWW</string>
+    <string name="wind_SW_225">SW</string>
+    <string name="wind_SWW_240">SWW</string>
+    <string name="wind_W_270">W</string>
+    <string name="wind_NNW_300">NW</string>
+    <string name="wind_NW_315">NW</string>
+    <string name="wind_NNW_330">NNW</string>
+
 </resources>
